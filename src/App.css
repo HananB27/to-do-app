@@ -27,6 +27,59 @@
 .App-link {
   color: #61dafb;
 }
+.create-button{
+  background-color: #61dafb;
+  margin-left: 10px;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  
+}
+.todo-wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.delete-button{
+  background-color: #fb6b61;
+  margin-left: 10px;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.complete-button{
+  background-color: #61fb6b;
+  margin-left: 10px;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-button{
+  background-color: #fbf261;
+  margin-left: 10px;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+.completed{
+  text-decoration: line-through;
+  
+}
 
 @keyframes App-logo-spin {
   from {
